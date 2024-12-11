@@ -1,0 +1,10 @@
+SELECT *
+FROM salesorder
+LIMIT 500;
+
+SELECT COUNT(*) AS Num_of_Rows
+FROM salesorder; -- NUMBER OF ROWS
+
+SELECT count(*) AS Number_of_cols
+ FROM INFORMATION_SCHEMA.COLUMNS 
+WHERE TABLE_NAME = 'orderdetail'; -- NUMBER OF COLUMNS
